@@ -11,10 +11,10 @@ author:
   othernames: Reports
   address: XXX
   qualifications: XXX
-- familyname: XXX
-  othernames: XXX
-  address: XXX
-  email: XXX
+- familyname: Jawahar
+  othernames: Sithalakshmi
+  address: Monash University
+  email: sja0002@student.monash.edu
   correspondingauthor: true
   qualifications:  XXX
 department: Our consultancy \newline add names &\newline add names
@@ -43,10 +43,15 @@ library(tidyverse)
 library(readr)
 library(kableExtra)
 library(bookdown)
+library(ggplot2)
 
 ```
 
+```{r}
+cases <- read_csv("Data/worldwidecases.csv")
+```
 
+This is the introduction all of us have to use. Let's figure out how to do it! 
 
 \section*{Country China and Thailand"}
 ```{r}
@@ -68,7 +73,14 @@ china_cases
 
 
 
-\section*{Country XX2 and YY2}
+\section*{Country India and Singapore}
+
+```{r}
+sjcountries <- cases %>% 
+  dplyr::filter(countriesAndTerritories %in% c ("India", "Singapore"))
+
+```
+
 
 \section*{Country XX3 and YY3}
 
