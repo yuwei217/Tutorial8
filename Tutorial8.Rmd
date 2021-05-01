@@ -5,7 +5,6 @@ author:
   othernames: Vivee
   address: Monash Universtidy
   email: yjia0142@student.monash.edu
-  correspondingauthor: true
 - familyname: Jaiswal
   othernames: Prachi
   address: Monash University
