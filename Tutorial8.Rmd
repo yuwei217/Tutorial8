@@ -6,38 +6,12 @@ author:
   address: Monash Universtidy
   email: yjia0142@student.monash.edu
   correspondingauthor: true
-<<<<<<< HEAD
-  qualifications:  XXX
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- familyname: Jaiswal
-  othernames: Prachi
-  address: Monash University
-  email: pjai0005@student.monash.edu
-=======
-  
-- familyname: XXXX
-  othernames: Reports
-  address: XXX
-  qualifications: XXX
->>>>>>> origin/section1
-- familyname: XXX
-  othernames: XXX
-  address: XXX
-  email: XXX
-=======
->>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
-- familyname: XXXX
-  othernames: Reports
-  address: XXX
-  qualifications: XXX
+
 - familyname: Jawahar
   othernames: Sithalakshmi
   address: Monash University
   email: sja0002@student.monash.edu
-<<<<<<< HEAD
-=======
+
 - familyname: Jaiswal
   othernames: Prachi
   address: Monash University
@@ -46,10 +20,8 @@ author:
   othernames: XXX
   address: XXX
   email: XXX
->>>>>>> origin/branchpj
-=======
->>>>>>> origin/branchsj
->>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
+
+
   correspondingauthor: true
   qualifications:  XXX
 department: Our consultancy \newline add names &\newline add names
@@ -80,24 +52,16 @@ library(readr)
 library(kableExtra)
 library(bookdown)
 library(ggplot2)
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
+
+
+
 library(plotly)
 library(ggthemes)
 library(gridExtra)
 library(kableExtra)
 library(rmdformats)
-<<<<<<< HEAD
->>>>>>> origin/branchpj
-=======
-=======
 
->>>>>>> origin/branchsj
->>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
 ```
 
 ```{r}
