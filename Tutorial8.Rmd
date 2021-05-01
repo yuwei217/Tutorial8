@@ -6,64 +6,14 @@ author:
   address: Monash Universtidy
   email: yjia0142@student.monash.edu
   correspondingauthor: true
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  qualifications:  XXX
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 - familyname: Jaiswal
   othernames: Prachi
   address: Monash University
   email: pjai0005@student.monash.edu
-=======
->>>>>>> 31197f09e2bde21f939ade81af35c3752ba03e78
-  
-- familyname: XXXX
-  othernames: Reports
-  address: XXX
-  qualifications: XXX
-<<<<<<< HEAD
-=======
->>>>>>> origin/section1
-- familyname: XXX
-  othernames: XXX
-  address: XXX
-  email: XXX
-=======
->>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
-- familyname: XXXX
-  othernames: Reports
-  address: XXX
-  qualifications: XXX
->>>>>>> 31197f09e2bde21f939ade81af35c3752ba03e78
 - familyname: Jawahar
   othernames: Sithalakshmi
   address: Monash University
   email: sja0002@student.monash.edu
-<<<<<<< HEAD
-=======
-  qualifications:  XXX
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 31197f09e2bde21f939ade81af35c3752ba03e78
-- familyname: Jaiswal
-  othernames: Prachi
-  address: Monash University
-  email: pjai0005@student.monash.edu
-- familyname: XXX
-  othernames: XXX
-  address: XXX
-  email: XXX
->>>>>>> origin/branchpj
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/branchsj
->>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
->>>>>>> 31197f09e2bde21f939ade81af35c3752ba03e78
   correspondingauthor: true
   qualifications:  XXX
 department: Our consultancy \newline add names &\newline add names
@@ -94,33 +44,11 @@ library(readr)
 library(kableExtra)
 library(bookdown)
 library(ggplot2)
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
->>>>>>> 31197f09e2bde21f939ade81af35c3752ba03e78
 library(plotly)
 library(ggthemes)
 library(gridExtra)
 library(kableExtra)
 library(rmdformats)
-<<<<<<< HEAD
->>>>>>> origin/branchpj
-=======
-<<<<<<< HEAD
->>>>>>> origin/branchpj
-=======
-=======
-
->>>>>>> origin/branchsj
->>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
->>>>>>> 31197f09e2bde21f939ade81af35c3752ba03e78
 ```
 
 ```{r}
