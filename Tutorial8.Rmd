@@ -5,35 +5,17 @@ author:
   othernames: Vivee
   address: Monash Universtidy
   email: yjia0142@student.monash.edu
-  correspondingauthor: true
-<<<<<<< HEAD
-  qualifications:  XXX
-<<<<<<< HEAD
+
 - familyname: Jaiswal
   othernames: Prachi
   address: Monash University
   email: pjai0005@student.monash.edu
-=======
-  
-- familyname: XXXX
-  othernames: Reports
-  address: XXX
-  qualifications: XXX
->>>>>>> origin/section1
-- familyname: XXX
-  othernames: XXX
-  address: XXX
-  email: XXX
-=======
-- familyname: XXXX
-  othernames: Reports
-  address: XXX
-  qualifications: XXX
+
 - familyname: Jawahar
   othernames: Sithalakshmi
   address: Monash University
   email: sja0002@student.monash.edu
->>>>>>> origin/branchsj
+
   correspondingauthor: true
   qualifications:  XXX
 department: Our consultancy \newline add names &\newline add names
@@ -64,15 +46,12 @@ library(readr)
 library(kableExtra)
 library(bookdown)
 library(ggplot2)
-<<<<<<< HEAD
 library(plotly)
 library(ggthemes)
 library(gridExtra)
 library(kableExtra)
 library(rmdformats)
-=======
 
->>>>>>> origin/branchsj
 ```
 
 ```{r}
