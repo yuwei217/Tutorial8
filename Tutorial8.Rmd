@@ -1,12 +1,12 @@
 ---
 title: "Corona Virus Report"
 author:
-- familyname: XXXX
-  othernames: XXX
+- familyname: Jiang
+  othernames: Vivee
   address: Monash Universtidy
-  email: XXX
+  email: yjia0142@student.monash.edu
   correspondingauthor: true
-  qualifications:  XXX
+  
 - familyname: XXXX
   othernames: Reports
   address: XXX
@@ -48,7 +48,25 @@ library(bookdown)
 
 
 
-\section*{Country XX1 and YY1"}
+\section*{Country China and Thailand"}
+```{r}
+cases<- read_csv("~/git/Tutorial8/Data/worldwidecases.csv")
+```
+
+```{r}
+China_cases <- cases %>% filter(countriesAndTerritories== "China")
+china_cases <- China_cases %>% select(month, cases)
+    
+ggplot(China_cases, aes(x = dateRep,
+y = cases)) +
+  geom_line() +
+  xlab("Date") + 
+  ylab("Cases") +
+theme_bw()
+china_cases
+```
+
+
 
 \section*{Country XX2 and YY2}
 
