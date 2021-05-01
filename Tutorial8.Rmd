@@ -1,13 +1,33 @@
 ---
 title: "Corona Virus Report"
 author:
-- familyname: XXXX
-  othernames: XXX
+- familyname: Jiang
+  othernames: Vivee
   address: Monash Universtidy
-  email: XXX
+  email: yjia0142@student.monash.edu
   correspondingauthor: true
+<<<<<<< HEAD
   qualifications:  XXX
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- familyname: Jaiswal
+  othernames: Prachi
+  address: Monash University
+  email: pjai0005@student.monash.edu
+=======
+  
+- familyname: XXXX
+  othernames: Reports
+  address: XXX
+  qualifications: XXX
+>>>>>>> origin/section1
+- familyname: XXX
+  othernames: XXX
+  address: XXX
+  email: XXX
+=======
+>>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
 - familyname: XXXX
   othernames: Reports
   address: XXX
@@ -16,6 +36,7 @@ author:
   othernames: Sithalakshmi
   address: Monash University
   email: sja0002@student.monash.edu
+<<<<<<< HEAD
 =======
 - familyname: Jaiswal
   othernames: Prachi
@@ -26,6 +47,9 @@ author:
   address: XXX
   email: XXX
 >>>>>>> origin/branchpj
+=======
+>>>>>>> origin/branchsj
+>>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
   correspondingauthor: true
   qualifications:  XXX
 department: Our consultancy \newline add names &\newline add names
@@ -57,14 +81,23 @@ library(kableExtra)
 library(bookdown)
 library(ggplot2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
 library(plotly)
 library(ggthemes)
 library(gridExtra)
 library(kableExtra)
 library(rmdformats)
+<<<<<<< HEAD
 >>>>>>> origin/branchpj
+=======
+=======
+
+>>>>>>> origin/branchsj
+>>>>>>> 94669ba2aa4202c0ff42cee3037e97b0fd2ce9c1
 ```
 
 ```{r}
@@ -73,7 +106,25 @@ cases <- read_csv("Data/worldwidecases.csv")
 
 This is the introduction all of us have to use. Let's figure out how to do it! 
 
-\section*{Country XX1 and YY1"}
+\section*{Country China and Thailand"}
+```{r}
+cases<- read_csv("~/git/Tutorial8/Data/worldwidecases.csv")
+```
+
+```{r}
+China_cases <- cases %>% filter(countriesAndTerritories== "China")
+china_cases <- China_cases %>% select(month, cases)
+    
+ggplot(China_cases, aes(x = dateRep,
+y = cases)) +
+  geom_line() +
+  xlab("Date") + 
+  ylab("Cases") +
+theme_bw()
+china_cases
+```
+
+
 
 \section*{Country India and Singapore}
 
