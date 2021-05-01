@@ -1,17 +1,25 @@
 ---
 title: "Corona Virus Report"
 author:
-- familyname: XXXX
-  othernames: XXX
+- familyname: Jiang
+  othernames: Vivee
   address: Monash Universtidy
-  email: XXX
+  email: yjia0142@student.monash.edu
   correspondingauthor: true
+<<<<<<< HEAD
   qualifications:  XXX
 <<<<<<< HEAD
 - familyname: Jaiswal
   othernames: Prachi
   address: Monash University
   email: pjai0005@student.monash.edu
+=======
+  
+- familyname: XXXX
+  othernames: Reports
+  address: XXX
+  qualifications: XXX
+>>>>>>> origin/section1
 - familyname: XXX
   othernames: XXX
   address: XXX
@@ -73,7 +81,25 @@ cases <- read_csv("Data/worldwidecases.csv")
 
 This is the introduction all of us have to use. Let's figure out how to do it! 
 
-\section*{Country XX1 and YY1"}
+\section*{Country China and Thailand"}
+```{r}
+cases<- read_csv("~/git/Tutorial8/Data/worldwidecases.csv")
+```
+
+```{r}
+China_cases <- cases %>% filter(countriesAndTerritories== "China")
+china_cases <- China_cases %>% select(month, cases)
+    
+ggplot(China_cases, aes(x = dateRep,
+y = cases)) +
+  geom_line() +
+  xlab("Date") + 
+  ylab("Cases") +
+theme_bw()
+china_cases
+```
+
+
 
 \section*{Country India and Singapore}
 
